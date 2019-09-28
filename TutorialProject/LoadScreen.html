@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Logos</title>
+    <link href="style/logoStyle.css" rel="stylesheet" />
+    <!--Vivus js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="btn-group">
+                    <button id="btnTutorial" type="button" onclientclick="btnTutorial_Click" class="btn btn-default">Tutorial</button>
+                    <button id="btnMaze" type="button" onclientclick="btnMaze_Click" class="btn btn-default">Maze</button>
+                    <button id="btnLogo" type="button" onclientclick="btnLogo_Click" class="btn btn-default">Logo</button>
+                    <button id="btnWritten" type="button" onclientclick="btnWritten_Click" class="btn btn-default">Written</button>
+                    <button id="btnLoadingScreen" type="button" onclientclick="btnLoadingScreen_Click" class="btn btn-default">Loading Screen</button>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve" id="loading">
+<style type="text/css">
+    .st0 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 2;
+        stroke-miterlimit: 10;
+    }
+
+    .st1 {
+        font-family: 'Consolas';
+    }
+
+    .st2 {
+        font-size: 60px;
+    }
+
+    .st3 {
+        fill: #FFFFFF;
+        stroke: #000000;
+        stroke-width: 5;
+        stroke-miterlimit: 10;
+    }
+
+    .st4 {
+        fill: #FFFFFF;
+        stroke: #000000;
+        stroke-width: 100;
+        stroke-miterlimit: 10;
+    }
+</style>
+<g id="Layer_1">
+                <text transform="matrix(1 0 0 1 755.6855 763.6523)" class="st0 st1 st2">Loading . . .</text>
+                <rect x="344.5" y="303.5" class="st3" width="1179" height="389" />
+
+
+
+</g>
+<g id="Layer_2">
+                <path class="st0" d="M822,718" />
+
+
+
+                <path class="st0" d="M931,720" />
+
+
+
+                <path class="st4" d="M413,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M627,679" />
+
+
+
+                <path class="st4" d="M736,679" />
+
+
+
+                <path class="st4" d="M849,679" />
+
+
+
+                <path class="st4" d="M958,679" />
+
+
+
+                <path class="st4" d="M1067,681" />
+
+
+
+                <path class="st4" d="M1176,681" />
+
+
+
+                <path class="st4" d="M529,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M645,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M867,678" />
+
+
+
+                <path class="st4" d="M761,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M877,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M1091,679" />
+
+
+
+                <path class="st4" d="M1200,679" />
+
+
+
+                <path class="st4" d="M1313,680" />
+
+
+
+                <path class="st4" d="M993,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M1109,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M1331,679" />
+
+
+
+                <path class="st4" d="M1225,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M1342,678.5c0-120,0-240,0-360" />
+
+
+
+                <path class="st4" d="M1458,678.5c0-120,0-240,0-360" />
+
+
+
+</g>
+</svg>
+                <div id="vivus-loadingSuccess"></div>
+            </div>
+            </div>
+        </div>
+    <script>
+        function btnTutorial_Click() {
+            window.location.replace('Index.html');
+        }
+        function btnMaze_Click() {
+            window.location.replace('Maze.html');
+        }
+        function btnLogo_Click() {
+            window.location.replace('Logo.html');
+        }
+        function btnWritten_Click() {
+            window.location.replace('Written.html');
+        }
+        function btnLoadingScreen_Click() {
+            window.location.replace('LoadScreen.html');
+        }
+        $(document).ready(function () {
+            $(document).ready(function () { $('#btnTutorial').on("click", btnTutorial_Click); });
+            $(document).ready(function () { $('#btnMaze').on("click", btnMaze_Click); });
+            $(document).ready(function () { $('#btnLogo').on("click", btnLogo_Click); });
+            $(document).ready(function () { $('#btnWritten').on("click", btnWritten_Click); });
+            $(document).ready(function () { $('#btnLoadingScreen').on("click", btnLoadingScreen_Click); });
+        });
+        new Vivus('loading', {
+            start: 'autostart',
+            type: 'oneByOne',
+            duration: 200
+        }, function () {
+            $('#loading').hide();
+            var vivus = new Vivus($('#vivus-loadingSuccess')[0],
+                    {
+                        start: 'autostart',
+                        type: 'oneByOne',
+                        duration: 200,
+                        file: 'svg/loadingSuccess.svg'
+                    });
+        });
+    </script>
+</body>
+</html>
